@@ -6,7 +6,7 @@ dotenv.config()
 async function connectDB() {
     const url = 'mongodb://localhost:27017/videos'
     try {
-        await mongoose.connect(url || process.nv.DATABASE_URL, {
+        await mongoose.connect(process.nv.DATABASE_URL || url, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
 
