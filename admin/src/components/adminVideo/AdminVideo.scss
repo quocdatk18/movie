@@ -1,0 +1,29 @@
+.admin-video{
+    margin-left: 300px;
+    min-height: 100vh;
+    flex-grow: 1;
+    background: #eee;
+    box-shadow: -8px 0px 5px rgba(0,0,0,0.1);
+
+    .admin-video-link{
+        display: flex;
+        .add-video{
+            font-size: 35px;
+            display: flex;
+            padding: 1rem;
+            
+            font-weight: 600;
+            color: #6b6b6b;
+            &:hover{
+                color: #1890ff;
+                transition: .3s;
+            }
+        }
+    }
+    .pagination{
+        padding: 1rem 0;
+        .span{
+    
+        }
+    }
+}

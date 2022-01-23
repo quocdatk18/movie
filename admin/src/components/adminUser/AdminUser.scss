@@ -1,0 +1,24 @@
+.adminuser{
+    margin: 8px 10px 0px 300px;
+    min-height: 100vh;
+    flex-grow: 1;
+    background: #eee;
+    box-shadow: 4px 0px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    &--div{
+        position: relative;
+    background: #eee;
+    .bodys{
+        h1{
+            display: flex;
+            padding: 20px 0px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #6b6b6b;
+            text-transform: uppercase;
+            margin-left: 12px;
+        }
+    }
+    }
+}

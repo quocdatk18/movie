@@ -1,0 +1,53 @@
+.admin-user-list{
+  background-color: white;
+    table{
+      width: 100%;
+      .admin__user-header{
+          th{
+              height: 50px;
+              background-color: rgb(199, 199, 199);
+              color: #fff;
+              font-size: 1rem;
+          }
+      }
+      .admin__user-body{
+          height: 50px;
+          text-align: center;
+          transition: all 0.3s ease;
+           font-weight: 600;
+            .admin__user-id{
+            text-align: center;
+            }
+            .admin__user-name{
+              text-align: center;
+              font-size: 1rem;
+              font-weight: 600;
+            }
+            .admin__user-email{
+              text-align: center;
+            }
+            .admin__user-address{
+              text-align: center;
+            }
+            .admin__user-phone{
+              text-align: center;
+
+            }
+            .admin__user-delete{
+
+              text-align: center;
+              .admin__user-icon{
+                font-size: 1.2rem;
+                  cursor: pointer;
+                  color: red;
+              }
+            }
+            &:hover {
+              background-color: rgb(231, 231, 231);
+            }
+      }
+    }
+}
+
+
+
