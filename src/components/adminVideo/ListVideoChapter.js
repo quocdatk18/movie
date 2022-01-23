@@ -43,8 +43,8 @@ function ListVideoChapter({ listvideos }) {
                 <thead>
                     <tr className="admin__video-header">
                         <th>No.</th>
-                        <th>Image</th>
                         <th>Name</th>
+                        <th>NameFirm</th>
                         <th>Link Video</th>
                         <th></th>
 
