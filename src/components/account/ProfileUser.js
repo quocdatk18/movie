@@ -51,25 +51,25 @@ export default function ProfileUser() {
                             <div className="form-group">
                                 <label htmlFor="">Tên</label>
                                 <div className="input">
-                                    <input {...register("name")} type="text" value={userInfo?.name} placeholder='xin mời nhập tên' required />
+                                    <input {...register("name")} type="text" defaultValue={userInfo?.name} placeholder='xin mời nhập tên' required />
                                 </div>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="">Địa Chỉ</label>
                                 <div className="input">
-                                    <input {...register("address")} type="text" value={userInfo?.address} placeholder='xin mời nhập địa chỉ' required />
+                                    <input {...register("address")} type="text" defaultValue={userInfo?.address} placeholder='xin mời nhập địa chỉ' required />
                                 </div>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="">Số điện thoại</label>
                                 <div className="input">
-                                    <input {...register("phone")} type="text" value={userInfo?.phone} placeholder='xin mời nhập số điện thoại' required />
+                                    <input {...register("phone")} type="text" defaultValue={userInfo?.phone} placeholder='xin mời nhập số điện thoại' required />
                                 </div>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="">Tài Khoảng</label>
                                 <div className="input">
-                                    <input {...register("email")} value={userInfo?.email} type="text" placeholder='xin mời nhập email' required />
+                                    <input {...register("email")} defaultValue={userInfo?.email} type="text" placeholder='xin mời nhập email' required />
                                 </div>
                             </div>
                             <div className="form-group">
