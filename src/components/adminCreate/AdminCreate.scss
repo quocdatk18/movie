@@ -1,0 +1,95 @@
+.admincreate {
+    margin: 8px 10px 0px 300px;
+    min-height: 100vh;
+    flex-grow: 1;
+    background: #eee;
+    box-shadow: 4px 0px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    &--div{
+        position: relative;
+        .admincreate-title{  
+            width: 100%;
+            padding: 10px 8px;
+            background-color:rgb(192, 192, 192) ;
+            border-radius: 10px;
+            h1{
+               color: #fff;
+            }
+        }
+        .admin-form{
+        width: 100%;
+        height: auto;
+        margin: 18px auto;
+        display: flex;
+        align-items: center;
+        form{
+            border-radius: 10px;
+            width: 100%;
+            background-color: rgb(180, 180, 180);
+            .form-div{
+                display: flex;   
+                padding: 8px 12px;
+                justify-content:space-between;
+                width: 100%;
+                label{
+                    max-width: 20%;
+                    color: #fff;
+                    font-weight: 600;
+                }
+                input[type="text"]{
+                    max-width: 80%;
+                    width: 100%;
+                    outline: none;
+                    border: none;
+                    padding:10px 4px;
+                    border-radius: 5px;
+                }
+                select{
+                    max-width: 80%;
+                    border-radius: 5px;
+                    padding:10px 4px;
+                }
+                textarea{
+                    max-width: 80%;
+                    width: 100%;
+                    outline: none;
+                    border: none;
+                    height: 18px;
+                    border-radius: 5px;
+                }
+                button{
+                    position: relative;
+                    left: 50%;
+                   padding: 12px;
+                   border: none;
+                   outline: none;
+                   font-weight: 600;
+                   color: #fff;
+                   background-color: rgb(57, 136, 255);
+                }
+            }
+            .label-file{
+                width: 98%;
+                margin: auto;
+                // border: 1px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 0px;
+                // position: relative;
+                label{
+                    // border: 1px solid black;
+                    padding: 8px 0px;
+                    color: #fff;
+                }
+                input[type="file"]{
+                    // display: none;
+                    // right: -100px;
+                    // position: absolute;
+                }
+            }
+        }
+        }
+    }
+}

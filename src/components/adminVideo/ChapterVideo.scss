@@ -1,0 +1,10 @@
+.chaptervideo{
+    margin-left: 300px;
+    min-height: 100vh;
+    flex-grow: 1;
+    background: #eee;
+    box-shadow: -8px 0px 5px rgba(0,0,0,0.1);
+&{
+    position: relative;
+}
+}
