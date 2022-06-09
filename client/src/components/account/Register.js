@@ -16,7 +16,7 @@ export default function Register() {
     const onSubmit = async (data, e) => {
         if (password === confirmPassword) {
             dispatch(RegisterAcc(data))
-            window.location.reload()
+           
         } else {
             alert("mật khẩu không trùng khớp")
         }
