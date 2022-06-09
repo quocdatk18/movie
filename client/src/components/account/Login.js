@@ -13,7 +13,7 @@ export default function Login() {
     const dispatch = useDispatch()
     const onSubmit = async (data, e) => {
         dispatch(LoginAcc(data))
-        window.location.reload()
+       
     };
     return (
         <div className='login'>
